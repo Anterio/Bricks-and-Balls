@@ -20,6 +20,7 @@
 		8E0FDE5E19926253009B7AAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E0FDE5C19926253009B7AAD /* InfoPlist.strings */; };
 		8E0FDE6019926253009B7AAD /* Bricks_and_BallsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0FDE5F19926253009B7AAD /* Bricks_and_BallsTests.m */; };
 		8E0FDE6C199262CD009B7AAD /* BABGameBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0FDE6B199262CD009B7AAD /* BABGameBoardViewController.m */; };
+		8EAE3EFA1993B9F0003A59B6 /* BABHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAE3EF91993B9F0003A59B6 /* BABHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8E0FDE5F19926253009B7AAD /* Bricks_and_BallsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bricks_and_BallsTests.m; sourceTree = "<group>"; };
 		8E0FDE6A199262CD009B7AAD /* BABGameBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BABGameBoardViewController.h; sourceTree = "<group>"; };
 		8E0FDE6B199262CD009B7AAD /* BABGameBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BABGameBoardViewController.m; sourceTree = "<group>"; };
+		8EAE3EF81993B9F0003A59B6 /* BABHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BABHeaderView.h; sourceTree = "<group>"; };
+		8EAE3EF91993B9F0003A59B6 /* BABHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BABHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,8 +156,18 @@
 			children = (
 				8E0FDE6A199262CD009B7AAD /* BABGameBoardViewController.h */,
 				8E0FDE6B199262CD009B7AAD /* BABGameBoardViewController.m */,
+				8EAE3EF71993B9A5003A59B6 /* Views */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8EAE3EF71993B9A5003A59B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8EAE3EF81993B9F0003A59B6 /* BABHeaderView.h */,
+				8EAE3EF91993B9F0003A59B6 /* BABHeaderView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +269,7 @@
 				8E0FDE6C199262CD009B7AAD /* BABGameBoardViewController.m in Sources */,
 				8E0FDE4B19926253009B7AAD /* BABAppDelegate.m in Sources */,
 				8E0FDE4719926253009B7AAD /* main.m in Sources */,
+				8EAE3EFA1993B9F0003A59B6 /* BABHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +466,7 @@
 				8E0FDE6519926253009B7AAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E0FDE6619926253009B7AAD /* Build configuration list for PBXNativeTarget "Bricks and BallsTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +475,7 @@
 				8E0FDE6819926253009B7AAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
