@@ -12,6 +12,7 @@
 {
     UIView * ballHolder;
     UILabel * scoreLabel;
+//    UILabel * livesLabel;
 }
 - (id)initWithFrame:(CGRect)frame
 {
@@ -27,6 +28,10 @@
         scoreLabel = [[UILabel alloc] initWithFrame:CGRectMake(SCREEN_WIDTH-200, 0, 190, 40)];
         scoreLabel.textAlignment = NSTextAlignmentRight;
         [self addSubview:scoreLabel];
+        
+//        livesLabel = [[UILabel alloc] initWithFrame:CGRectMake(SCREEN_WIDTH-300, 0, 190, 40)];
+//        livesLabel.textAlignment = NSTextAlignmentRight;
+//        [self addSubview:livesLabel];
         
         self.lives = 3;
         self.score = 0;
@@ -46,7 +51,6 @@
 -(void)setLives:(int)lives
 {
     _lives =lives;
-    
     for (UIView * lifeBall in ballHolder.subviews)
     {
         [lifeBall removeFromSuperview];
